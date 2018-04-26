@@ -1,0 +1,4 @@
+module.exports = {
+	googleClientId:"", //Google+ api oauth
+	googleSecretKey:"", //Google+ api oauth
+};
