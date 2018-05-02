@@ -1,4 +1,5 @@
 module.exports = {
 	googleClientId:"", //Google+ api oauth
 	googleClientSecret:"", //Google+ api oauth
+	mongoURI: 'mongodb://<dbuser>:<dbpassword>@ds111430.mlab.com:11430/emaily-dev-arg',
 };
