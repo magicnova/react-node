@@ -5,7 +5,7 @@ const keys = require("./config/keys");
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(keys.mongoURI);
-
+require("./models/User");
 require("./services/passportService");
 require("./routes/authRoute")(app);
 
