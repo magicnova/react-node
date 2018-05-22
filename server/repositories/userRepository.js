@@ -11,3 +11,8 @@ exports.GetOrCreate = async googleId => {
 
 	return user;
 };
+
+exports.GetById = async userId => {
+	let user = await User.findById(userId);
+	return user;
+};
